@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+nav{
+    padding-top: .3%;
+    height: 40px;
+    background-color: rgba(240, 248, 255, 0.708);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+#carouselExampleSlidesOnly{
+    height: 70%;
+    width: 100%;
+}
+.page2{
+    margin-top: 5%;
+}
+.row{
+    margin: 0% 4%;
+}
+.card-body a{
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.card-body a:hover{
+    color: orangered;
+}
+.page3{
+    margin-top: 5%;
+}
+.page3 h1{
+    margin-bottom: 2%;
+}
+.card-group{
+    margin: 0px 4%;
+    gap: 2%;
+}
+.page4{
+    margin-top: 5%;
+    background-image: url(https://www.coca-colacompany.com/content/dam/company/us/en/PACS%20Singapore%20Employees%202021-019-cut2.jpg/width1960.jpg);
+background-position: 90%;
+background-repeat: no-repeat;
+background-size: 50%;
+height: 100vh;
+width: 100vw;
+}
+.p4text{
+    margin-left: 10%;
+   padding-top: 40px;
+    width: 40%;
+    height: 85%;
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    border-radius: 20px;
+}
+.p4text button{
+    width: 60%;
+    padding: 1%;
+    border-radius: 40px;
+    border-color: black;
+    margin-top: 40%;
+    background-color: transparent;
+    font-weight: bold;
+}
+.p4text button:hover{
+    color: gray;
+    border-color: gray;
+}
+.page5{
+    margin-top: 5%;
+    background-image: url(https://www.coca-colacompany.com/content/dam/company/us/en/Our-Company-1.5MB-cut2.jpg/width1960.jpg);
+background-position: 10%;
+background-repeat: no-repeat;
+background-size: 50%;
+height: 100vh;
+width: 100vw;
+}
+.p5text{
+    margin-left: 50%;
+   padding-top: 40px;
+    width: 40%;
+    height: 85%;
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    border-radius: 20px;
+}
+.p5text button{
+    width: 60%;
+    padding: 1%;
+    border-radius: 40px;
+    border-color: black;
+    margin-top: 15%;
+    background-color: transparent;
+    font-weight: bold;
+}
+.p5text button:hover{
+    color: gray;
+    border-color: gray;
+}
+.cardi{
+    background-color: rgb(255, 255, 255);
+    /* width: 20%;
+    height: 100%; */
+    padding: 3%;
+    border-radius: 30px;
+    cursor: pointer;
+ 
+}
+.cardi:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px black;
+}
+.cards1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.cards2{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.cards3{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.page6 button{
+    width: 25%;
+    padding: 0.5%;
+    border-radius: 40px;
+    border-color: black;
+    margin: 5% 0px;
+    background-color: transparent;
+    font-weight: bold;
+}
+.page6 button:hover{
+    transition: .6s;
+    box-shadow: 10px 10px 10px black;
+    color: gray;
+    border-color: gray;
+}
+#end{
+    text-decoration: none;
+    color: white  !important;
+}
+.btn:hover{
+    transition: .6s;
+    box-shadow: 2px 2px 10px white;
+border: 2px solid white;
+}
